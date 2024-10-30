@@ -3,9 +3,9 @@ slug: /
 date: 2024-09-28
 title: Sean Luo
 created: 2024-09-30T21:35
-updated: 2024-09-30T21:52
+updated: 2024-10-18T22:14
 ---
-<h2 id = "About">About </h2>
+## About
 Data Professional with 2 YOE in pipeline, modelling and BI. My expertise spans across ETL processes, big data technologies, and cloud platforms, ensuring seamless data integration and accessibility. I am passionate about leveraging data to solve complex problems and enhance decision-making processes. With a strong foundation in both data engineering and data science, I bring a unique blend of technical skills and analytical thinking to the table. I thrive in collaborative environments and am committed to continuous learning and innovation in the ever-evolving field of data.
 
 ## Education:
@@ -71,6 +71,8 @@ Computer Science Exchange to HKUST: Fall 2019
     * Created 3D Product demonstration Animation in Maya. 
     * Jointly conducted community survey and market research across Sydney.
 * [Coursework: JavaFX 2D Dungeon Game](https://github.com/lu0x1a0/_redacted_dungeon_game)
+### Tinkering
+- [sluofoss/finance-etc (github.com)](https://github.com/sluofoss/finance-etc)
 
 <h2 id = "Contact"> Contact </h2>
 Email: sluofoss (at) gmail.com
