@@ -1,6 +1,8 @@
 ---
 created: 2024-11-05T22:02
-updated: 2024-11-05T22:09
+updated: 2024-11-06T00:11
+tags:
+  - "#diagram"
 ---
 # Synonyms
 	
