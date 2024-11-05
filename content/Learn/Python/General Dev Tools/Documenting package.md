@@ -1,6 +1,6 @@
 ---
 created: 2024-11-03T15:28
-updated: 2024-11-03T15:34
+updated: 2024-11-05T22:37
 ---
 
 # generate doc website for package from docstrings
@@ -19,3 +19,6 @@ https://www.reddit.com/r/Python/comments/lohyb/rpython_what_documentation_system
 
 # readme standards
 https://codingnomads.com/python-101-documentation-readme
+
+# Visualizing code
+- #code2flow 

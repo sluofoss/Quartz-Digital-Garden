@@ -34,13 +34,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph({
       localGraph:{
         repelForce: 1,
-        linkDistance: 100,
+        linkDistance: 500,
         //centerForce: 0
       },
       globalGraph:{
-        repelForce: 0.01,
+        repelForce: 0.1,
         scale: 2,
-        //centerForce: 0,
+        centerForce: 1,
       }
     }),
     Component.DesktopOnly(Component.TableOfContents()),

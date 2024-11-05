@@ -1,6 +1,8 @@
 ---
 created: 2024-09-30T21:35
-updated: 2024-10-17T20:41
+updated: 2024-11-05T23:55
+tags:
+  - eda
 ---
 
 open source

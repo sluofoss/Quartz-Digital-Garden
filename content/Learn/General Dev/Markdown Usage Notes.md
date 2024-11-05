@@ -1,6 +1,8 @@
 ---
 created: 2024-10-13T21:45
-updated: 2024-10-13T22:03
+updated: 2024-11-05T22:38
+tags:
+  - markdown
 ---
 # formatting
 

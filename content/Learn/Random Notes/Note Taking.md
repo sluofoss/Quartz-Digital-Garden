@@ -1,9 +1,9 @@
 ---
 created: 2024-10-17T01:27
-updated: 2024-10-18T20:26
+updated: 2024-11-05T22:39
 ---
 # Requirements:
-- uses [[Markdown]]
+- uses [[Markdown Usage Notes]]
 # Options:
 - #Obsidian
 	- proprietary
@@ -42,3 +42,6 @@ updated: 2024-10-18T20:26
 			- [Database version (closed alpha test started) on Logseq Roadmap | Trello](https://trello.com/c/0hUluTN4/1128-database-version-closed-alpha-test-started)
 - #Joplin
 	- foss
+- #tana
+	- https://tana.inc/engineering
+	- https://www.reddit.com/r/logseq/comments/1epxcm5/when_logseq_db_will_be_available_to_the_public_in/

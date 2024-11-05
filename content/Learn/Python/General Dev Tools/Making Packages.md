@@ -1,6 +1,6 @@
 ---
 created: 2024-09-30T21:35
-updated: 2024-10-16T00:01
+updated: 2024-11-05T22:20
 ---
 
 1. Pipenv, 
@@ -8,6 +8,7 @@ updated: 2024-10-16T00:01
 3. PDM
 4. Poetry
 5. rye
+6. uv
 
 [Pipenv, pip-tools, PDM, or Poetry? : r/Python (reddit.com)](https://www.reddit.com/r/Python/comments/16qz8mx/pipenv_piptools_pdm_or_poetry/)
 

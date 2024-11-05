@@ -1,6 +1,6 @@
 ---
 created: 2024-10-16T00:13
-updated: 2024-10-18T21:34
+updated: 2024-11-05T23:47
 ---
 - [ ] add github workflow to alt-learn and finance-etc
 - [x] see how to improve graph view in obsidian quartz
@@ -12,3 +12,6 @@ updated: 2024-10-18T21:34
 	- forward to personal email + send using custom domain using sendgrid (?)
 	- https://www.reddit.com/r/selfhosted/comments/13p993z/cloudflare_email_forwarding/
 - [ ] explore #Logseq after December, maybe performance ready and could be self hosted. 
+	- the performance ready is done by migrate from markdown to sqlite
+	- it should still have import + export option with markdown
+- [ ] burn out/ hard print #dataview result using #Templater such that it can be exported to quartz https://github.com/blacksmithgu/obsidian-dataview/issues/42 

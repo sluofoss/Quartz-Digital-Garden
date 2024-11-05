@@ -1,6 +1,8 @@
 ---
 created: 2024-10-31T01:46
-updated: 2024-10-31T01:51
+updated: 2024-11-05T22:37
+tags:
+  - diagram
 ---
 # Incentive
 It is a necessity to have understanding of code call stack holistically. However, it is hard to understand anyone's code without context, lineage of function call becomes hard to visualize. 
@@ -12,5 +14,8 @@ https://www.reddit.com/r/learnjavascript/comments/o9s5iv/any_good_vscode_extensi
 https://marketplace.visualstudio.com/items?itemName=YaobinOuyang.CodeAtlas
 
 ### other cli projects
-https://github.com/scottrogowski/code2flow
+- python package #code2flow
+	- based on ast
+	- https://github.com/scottrogowski/code2flow
+
 https://github.com/whyboris/TypeScript-Call-Graph
