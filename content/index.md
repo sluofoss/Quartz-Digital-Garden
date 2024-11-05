@@ -3,7 +3,7 @@ slug: /
 date: 2024-09-28
 title: Sean Luo
 created: 2024-09-30T21:35
-updated: 2024-10-18T22:14
+updated: 2024-11-06T00:00
 ---
 ## About
 Data Professional with 2 YOE in pipeline, modelling and BI. My expertise spans across ETL processes, big data technologies, and cloud platforms, ensuring seamless data integration and accessibility. I am passionate about leveraging data to solve complex problems and enhance decision-making processes. With a strong foundation in both data engineering and data science, I bring a unique blend of technical skills and analytical thinking to the table. I thrive in collaborative environments and am committed to continuous learning and innovation in the ever-evolving field of data.
@@ -48,7 +48,7 @@ Computer Science Exchange to HKUST: Fall 2019
 
 #### Knowledge:
 
-* Statistical Modelling, Machine Learning, Data Cleaning and Analysis.
+* #statistical-modelling, #machine-learning, #data-engineering, #data-analytics 
 
 ## Projects
 

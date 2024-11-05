@@ -1,6 +1,6 @@
 ---
 created: 2024-09-30T21:35
-updated: 2024-10-17T01:09
+updated: 2024-11-06T00:04
 ---
 
 1. single node
@@ -20,7 +20,7 @@ adjoin with [[sklearn]]:
 feature engine only supports pandas , not polars
 
 1. distributed
-	1. ray
+	1. #ray
 	2. dask
 	3. pyspark
 

@@ -1,8 +1,8 @@
 ---
 created: 2024-10-13T22:11
-updated: 2024-11-05T22:14
+updated: 2024-11-06T00:07
 tags:
-  - analytics
+  - data-analytics
 ---
 [PowerBI Is A Human Rights Violation — Ludicity (mataroa.blog)](https://ludic.mataroa.blog/blog/powerbi-is-a-human-rights-violation/)
 

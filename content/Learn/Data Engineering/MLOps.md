@@ -1,6 +1,6 @@
 ---
 created: 2024-11-05T22:50
-updated: 2024-11-05T23:35
+updated: 2024-11-06T00:06
 tags:
   - "#data-engineering"
 ---
@@ -33,6 +33,6 @@ https://developers.teradata.com/quickstarts/manage-data/getting-started-dbt-feas
 | CICD                              | #github-workflow                      |
 | Monitor                           | #prometheus #grafana                  |
 
-
-
- 
+# integration with dominating stack
+- #ray + #mlflow + #databricks 
+	- https://docs.databricks.com/en/machine-learning/ray/ray-mlflow.html

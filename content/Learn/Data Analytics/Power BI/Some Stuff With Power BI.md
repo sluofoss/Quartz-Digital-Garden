@@ -1,8 +1,8 @@
 ---
 created: 2024-10-03T20:59
-updated: 2024-11-05T22:07
+updated: 2024-11-06T00:07
 tags:
-  - analytics
+  - data-analytics
   - "#powerbi"
 ---
 # pbip

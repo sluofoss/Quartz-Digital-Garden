@@ -1,8 +1,8 @@
 ---
 created: 2024-10-17T00:49
-updated: 2024-11-05T23:55
+updated: 2024-11-06T00:07
 tags:
-  - analytics
+  - data-analytics
   - "#eda"
 ---
 # FOSS with SAAS
