@@ -1,8 +1,9 @@
 ---
 created: 2024-09-30T21:35
-updated: 2024-11-05T23:24
+updated: 2024-11-06T00:15
 tags:
   - "#sklearn"
+  - "#machine-learning"
 ---
 
 # libraries for extensions of sklearn
