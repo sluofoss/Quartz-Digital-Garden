@@ -1,0 +1,12 @@
+{
+    "foam.files.ignore": [
+        ".github/*",
+        ".quartz-cache/*",
+        ".vscode/*",
+        "docs/*",
+        "node_modules/*",
+        "public/*",
+        "*.ts",
+        "*.json",
+    ]
+}
