@@ -15,9 +15,9 @@ updated: 2024-11-09T23:35
 		1. https://github.com/zaaack/vscode-markdown-editor
 		2. ‼does render mermaid plot but need to be careful how it handles things.
 	3. obsidian plugins:
-		1. ✅dataview
+		1. ✅#dataview
 			1. nothing so far to migrate
-		2. ✅templater
+		2. ✅#templater
 			1. nothing so far to migrate
 		3. ✅excalidraw
 			1. vscode also has this extension

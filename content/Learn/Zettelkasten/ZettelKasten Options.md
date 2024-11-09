@@ -74,6 +74,10 @@ updated: 2024-11-09T22:22
   - use .vscode/settings.json to filter out folders that should not be included in the graph
     - need to include file name as part of the title tag in frontmatter
     - (try not to include emoji cos that might mess with file path on some system)
+  - foam and vscode both have **variables** that one can use in templating
+    - https://code.visualstudio.com/docs/editor/userdefinedsnippets
+    - https://foambubble.github.io/foam/user/features/note-templates.html
+
 - vscode/vscodium + #foam + #logseq + #loam
 
   - #loam is vscode extension
@@ -87,3 +91,9 @@ updated: 2024-11-09T22:22
 
   - https://tana.inc/engineering
   - https://www.reddit.com/r/logseq/comments/1epxcm5/when_logseq_db_will_be_available_to_the_public_in/
+
+# Potential issues:
+
+1. using tools with settings incompatible in the same vault
+  1. https://github.com/marketplace/actions/file-sync
+  2. the idea is to sync the raw note between repo and the config separately.
