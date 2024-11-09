@@ -16,8 +16,8 @@ updated: 2024-11-09T22:22
 
 ## optional
 
-- #obsidian-dataview
-- #obsidian-templater
+- #dataview
+- #templater
 - #excalidraw
 
 # Options:
