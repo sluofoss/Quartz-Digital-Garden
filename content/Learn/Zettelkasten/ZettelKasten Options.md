@@ -28,7 +28,7 @@ updated: 2024-11-09T22:22
   - more plugins.
   - ### Publish
 
-    - easily publish digital garden using foss with quartz.
+    - easily publish digital garden using foss with #quartz.
 - #Logseq
 
   - foss

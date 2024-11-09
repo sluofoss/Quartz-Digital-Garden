@@ -6,7 +6,7 @@ updated: 2024-09-30T21:53
 
 # Incentive 
 
-I noticed today that the table of content and explorer tab of quartz are not showing up in mobile web.
+I noticed today that the table of content and explorer tab of #quartz are not showing up in mobile web.
 
 # reason
 

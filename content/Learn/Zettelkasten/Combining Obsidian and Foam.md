@@ -10,7 +10,7 @@ updated: 2024-11-10T00:29
 		1. foam work in vscode, (1 less app to be installed from company IT perspective)
 		2. logseq can serve web client via docker.
 2. compatibility issues in migration/coexist:
-	1. ✅currently uses obsidian quartz to publish (have out of the bock graph and backlink support)
+	1. ✅currently uses obsidian #quartz to publish (have out of the bock graph and backlink support)
 	2. ✅WYSIWYG:
 		1. https://github.com/zaaack/vscode-markdown-editor
 		2. ‼does render mermaid plot but need to be careful how it handles things.
