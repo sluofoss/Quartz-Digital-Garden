@@ -1,7 +1,9 @@
 ---
+title: Combining Obsidian and Foam
 created: 2024-11-09T22:45
 updated: 2024-11-09T23:35
 ---
+
 # Problems:
 1. obsidian is closed source and require purchase commercial license to be used for work
 	1. ✅foam or logseq is the viable future.

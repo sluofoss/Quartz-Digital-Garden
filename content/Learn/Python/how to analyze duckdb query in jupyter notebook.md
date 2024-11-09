@@ -1,9 +1,11 @@
 ---
+title: how to analyze duckdb query in jupyter notebook
 created: 2024-09-30T21:35
 updated: 2024-11-06T00:23
 tags:
   - duckdb
 ---
+
 
 https://duckdb.org/docs/guides/meta/explain_analyze.html
 

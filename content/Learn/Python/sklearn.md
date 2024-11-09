@@ -1,10 +1,12 @@
 ---
+title: sklearn
 created: 2024-09-30T21:35
 updated: 2024-11-06T00:15
 tags:
   - "#sklearn"
   - "#machine-learning"
 ---
+
 
 # libraries for extensions of sklearn
 https://koaning.github.io/scikit-lego/api/feature-selection/#sklego.feature_selection.mrmr.MaximumRelevanceMinimumRedundancy

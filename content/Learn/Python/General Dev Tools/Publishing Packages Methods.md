@@ -1,7 +1,9 @@
 ---
+title: Publishing Packages Methods
 created: 2024-10-16T00:00
 updated: 2024-10-16T00:26
 ---
+
 # Publish Location
 - PyPi
 - anaconda

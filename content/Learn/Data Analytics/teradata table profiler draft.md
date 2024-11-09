@@ -1,9 +1,11 @@
 ---
+title: teradata table profiler draft
 created: 2024-10-31T01:45
 updated: 2024-11-05T22:53
 tags:
   - "#eda"
 ---
+
 
 ```sql
 DROP TABLE __MYDATABASE__.__MY_COLUMN_AGG__;

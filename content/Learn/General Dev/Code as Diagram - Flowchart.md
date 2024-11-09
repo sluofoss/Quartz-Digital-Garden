@@ -1,9 +1,11 @@
 ---
+title: Code as Diagram - Flowchart
 created: 2024-10-31T01:46
 updated: 2024-11-05T22:37
 tags:
   - diagram
 ---
+
 # Incentive
 It is a necessity to have understanding of code call stack holistically. However, it is hard to understand anyone's code without context, lineage of function call becomes hard to visualize. 
 

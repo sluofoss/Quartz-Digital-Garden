@@ -1,9 +1,11 @@
 ---
+title: General Plot knowledge
 created: 2024-11-05T22:02
 updated: 2024-11-06T00:11
 tags:
   - "#diagram"
 ---
+
 # Synonyms
 	
 1. A visual representation of data that's made up of multiple subplots that share the same axes. the difference between subplots being category/subset of data.

@@ -1,7 +1,9 @@
 ---
+title: Documenting package
 created: 2024-11-03T15:28
 updated: 2024-11-05T22:37
 ---
+
 
 # generate doc website for package from docstrings
 - https://medium.com/practical-coding/documenting-your-python-library-from-zero-to-website-488f87ae58f5

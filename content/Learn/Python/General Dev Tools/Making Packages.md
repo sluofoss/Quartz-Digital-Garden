@@ -1,7 +1,9 @@
 ---
+title: Making Packages
 created: 2024-09-30T21:35
 updated: 2024-11-05T22:20
 ---
+
 
 1. Pipenv, 
 2. pip-tools, 

@@ -1,7 +1,10 @@
 ---
+title: Reading List
 created: 2024-09-30T21:35
 updated: 2024-10-19T20:19
 ---
+
+
 # feature selection
 - [ ] https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/
 - [ ] http://www.feat.engineering/classes-of-feature-selection-methodologies

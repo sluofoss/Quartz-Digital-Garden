@@ -1,9 +1,11 @@
 ---
+title: MLOps
 created: 2024-11-05T22:50
 updated: 2024-11-06T00:06
 tags:
   - "#data-engineering"
 ---
+
 # stack
 https://www.reddit.com/r/mlops/comments/1ephb1p/whats_your_mlops_stack/
 

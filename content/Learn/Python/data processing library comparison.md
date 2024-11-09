@@ -1,7 +1,9 @@
 ---
+title: data processing library comparison
 created: 2024-09-30T21:35
 updated: 2024-11-06T00:23
 ---
+
 
 1. single node
 	1. #polars

@@ -1,7 +1,9 @@
 ---
+title: TODOS
 created: 2024-10-16T00:13
 updated: 2024-11-05T23:47
 ---
+
 - [ ] add github workflow to alt-learn and finance-etc
 - [x] see how to improve graph view in obsidian quartz
 	- global too sparse, local too close.

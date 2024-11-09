@@ -1,7 +1,9 @@
 ---
+title: auto experiment and output
 created: 2024-09-30T21:35
 updated: 2024-11-05T23:25
 ---
+
 
 https://mlflow.org/docs/2.2.0/index.html#
 https://neptune.ai/blog/best-mlflow-alternatives

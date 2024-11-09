@@ -59,13 +59,13 @@ def update_title_in_frontmatter(file_path):
 
 
 def update_markdown_files_in_directory(directory_path):
-    # Loop through all files in the directory
-    for filename in os.listdir(directory_path):
-        file_path = os.path.join(directory_path, filename)
-
-        # Only process markdown files (ending with .md)
-        if os.path.isfile(file_path) and filename.endswith('.md'):
-            update_title_in_frontmatter(file_path)
+    # Use os.walk to traverse all directories and subdirectories
+    for root, _, files in os.walk(directory_path):
+        for filename in files:
+            # Process only markdown files (.md)
+            if filename.endswith('.md'):
+                file_path = os.path.join(root, filename)
+                update_title_in_frontmatter(file_path)
 
 
 # Example usage: Update all markdown files in a directory

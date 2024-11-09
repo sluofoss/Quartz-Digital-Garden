@@ -1,7 +1,9 @@
 ---
+title: ideas
 created: 2024-09-30T21:35
 updated: 2024-09-30T21:52
 ---
+
 * Web Crawler of Food recipe
 
     Goals:

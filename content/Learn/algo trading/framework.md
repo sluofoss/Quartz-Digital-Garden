@@ -1,8 +1,10 @@
 ---
+title: framework
 created: 2024-10-05T15:17
 updated: 2024-10-10T00:03
 draft: "true"
 ---
+
 https://pipekit.io/blog/python-backtesting-frameworks-six-options-to-consider
 
 - backtrader has access to both live feed from IB and yahoo finance, 

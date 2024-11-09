@@ -1,7 +1,9 @@
 ---
+title: ZettelKasten Options
 created: 2024-10-17T01:27
 updated: 2024-11-09T22:22
 ---
+
 # Requirements:
 
 ## mandatory

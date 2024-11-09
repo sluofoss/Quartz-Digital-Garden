@@ -1,9 +1,11 @@
 ---
+title: difference between kafka and flink
 created: 2024-10-03T00:53
 updated: 2024-10-17T20:54
 tags:
   - data-engineering
 ---
+
 https://www.reddit.com/r/apachekafka/comments/1d9q6ss/comment/l7gc7an/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
 
 [NoPercentage6144](https://www.reddit.com/user/NoPercentage6144/)

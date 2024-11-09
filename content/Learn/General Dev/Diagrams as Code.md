@@ -1,9 +1,11 @@
 ---
+title: Diagrams as Code
 created: 2024-10-13T22:01
 updated: 2024-11-05T22:38
 tags:
   - diagram
 ---
+
 # potential diagrams in #markdown 
 - prismjs (not a diagram but do syntax highlighting of the code itself)
 - plantuml (really old and mature)

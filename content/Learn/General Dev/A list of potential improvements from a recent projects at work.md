@@ -1,7 +1,9 @@
 ---
+title: A list of potential improvements from a recent projects at work
 created: 2024-10-13T22:12
 updated: 2024-10-16T00:22
 ---
+
 # 🥼Evaluation, explainability, experiment:​
 
 1. Business knowledge induced feature selection​

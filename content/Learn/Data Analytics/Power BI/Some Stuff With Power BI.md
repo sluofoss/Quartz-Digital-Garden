@@ -1,10 +1,12 @@
 ---
+title: Some Stuff With Power BI
 created: 2024-10-03T20:59
 updated: 2024-11-06T00:07
 tags:
   - data-analytics
   - "#powerbi"
 ---
+
 # pbip
 it is possible to create custom DAX and power query import tables by editing the text file model.bim
 

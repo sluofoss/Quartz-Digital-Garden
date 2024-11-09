@@ -1,9 +1,11 @@
 ---
+title: Rants About Power BI and How Superset Compares
 created: 2024-10-13T22:11
 updated: 2024-11-06T00:07
 tags:
   - data-analytics
 ---
+
 [PowerBI Is A Human Rights Violation — Ludicity (mataroa.blog)](https://ludic.mataroa.blog/blog/powerbi-is-a-human-rights-violation/)
 
 - lack of lineage analysis in m-query, DAX is very undesirable (compare to AST using sqlglot in #sqlmesh, #datahub)
