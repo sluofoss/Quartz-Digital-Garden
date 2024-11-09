@@ -1,5 +1,6 @@
 {
     "foam.files.ignore": [
+
         ".github/*",
         ".quartz-cache/*",
         ".vscode/*",
@@ -8,5 +9,6 @@
         "public/*",
         "*.ts",
         "*.json",
-    ]
+    ],
+    "foam.files.newNotePath": "currentDir"
 }
