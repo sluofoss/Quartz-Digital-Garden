@@ -1,10 +1,10 @@
 ---
 title: sklearn
 created: 2024-09-30T21:35
-updated: 2024-11-06T00:15
+updated: 2024-11-10T00:30
 tags:
-  - "#sklearn"
-  - "#machine-learning"
+  - sklearn
+  - machine-learning
 ---
 
 

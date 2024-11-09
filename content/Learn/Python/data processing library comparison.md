@@ -6,9 +6,10 @@ updated: 2024-11-06T00:23
 
 
 1. single node
-	1. #polars
-	2. #duckdb
-	3. #pandas
+	- #polars
+	- #duckdb
+	- #pandas
+	
 get dummies / select case when
 	polars  (5x)< pandas (5x)< duckdb 
 

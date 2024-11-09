@@ -1,12 +1,12 @@
 ---
 title: Combining Obsidian and Foam
 created: 2024-11-09T22:45
-updated: 2024-11-09T23:35
+updated: 2024-11-10T00:29
 ---
 
 # Problems:
-1. obsidian is closed source and require purchase commercial license to be used for work
-	1. ✅foam or logseq is the viable future.
+1. #obsidian is closed source and require purchase commercial license to be used for work
+	1. ✅ #foam or #logseq is the viable future.
 		1. foam work in vscode, (1 less app to be installed from company IT perspective)
 		2. logseq can serve web client via docker.
 2. compatibility issues in migration/coexist:
@@ -19,7 +19,7 @@ updated: 2024-11-09T23:35
 			1. nothing so far to migrate
 		2. ✅ #templater
 			1. nothing so far to migrate
-		3. ✅excalidraw
+		3. ✅ #excalidraw
 			1. vscode also has this extension
 		4. ❓update time on edit
             1. this plugin does 2 things: 

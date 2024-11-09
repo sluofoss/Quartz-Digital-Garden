@@ -1,5 +1,5 @@
 ---
-title: framework
+title: algo trading framework
 created: 2024-10-05T15:17
 updated: 2024-10-10T00:03
 draft: "true"

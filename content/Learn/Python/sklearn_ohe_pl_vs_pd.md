@@ -1,7 +1,9 @@
 ---
 title: sklearn_ohe_pl_vs_pd
 created: 2024-09-30T21:35
-updated: 2024-09-30T21:53
+updated: 2024-11-10T00:32
+tags:
+  - data-engineering
 ---
 
 

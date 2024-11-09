@@ -1,10 +1,10 @@
 ---
 title: BI & EDA Solutions
 created: 2024-10-17T00:49
-updated: 2024-11-06T00:07
+updated: 2024-11-10T00:29
 tags:
   - data-analytics
-  - "#eda"
+  - eda
 ---
 
 # FOSS with SAAS

@@ -1,9 +1,9 @@
 ---
 title: MLOps
 created: 2024-11-05T22:50
-updated: 2024-11-06T00:06
+updated: 2024-11-10T00:30
 tags:
-  - "#data-engineering"
+  - data-engineering
 ---
 
 # stack
