@@ -67,7 +67,7 @@ updated: 2024-11-09T22:22
     - logseq apk performance on mobile apparent have issues on low spec devices.
     - people are getting impatient for feature development. Apparently the database (db) version (speed up local caching) has been in development for a while.
       - [Database version (closed alpha test started) on Logseq Roadmap | Trello](https://trello.com/c/0hUluTN4/1128-database-version-closed-alpha-test-started)
-- vscode/vscodium + #foam
+- [[VSCode]]/#vscodium + #foam
 
   - version 0.26 graph have issue in github codespace (local works fine)
     - revert to vsix version 0.25.12 solves the issue.
