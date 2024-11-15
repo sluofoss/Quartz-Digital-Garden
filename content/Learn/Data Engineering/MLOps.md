@@ -22,18 +22,20 @@ https://developers.teradata.com/quickstarts/manage-data/getting-started-dbt-feas
 
 # interested compatible FOSS stack components
 
-| type                              | tool                                  |
-| --------------------------------- | ------------------------------------- |
-| data source                       | #spark #kafka #pulsar #api #warehouse |
-| feature store/share/documentation | #feast                                |
-| model build/train                 | #sklearn, #spark, #xgboost #ray       |
-| model code dev                    | #mlflow                               |
-| model registry                    | #mlflow                               |
-| model serve                       | #kubeflow                             |
-| model orchestration               | #airflow, #argoflow                   |
-| IaC                               | #terraform                            |
-| CICD                              | #github-workflow                      |
-| Monitor                           | #prometheus #grafana                  |
+| type                                | tool                                  |
+| ----------------------------------- | ------------------------------------- |
+| data source                         | #spark #kafka #pulsar #api #warehouse #postgresql |
+| data source transform orchestration | #dbt #sqlmesh                         |
+| data source/model catalog           | #datahub #amundsen-io #OpenMetadata   |
+| feature store/share/documentation   | #feast                                |
+| model build/train                   | [[sklearn]], #spark, #xgboost #ray    |
+| model code dev                      | #mlflow                               |
+| model registry                      | #mlflow                               |
+| model serve                         | #kubeflow                             |
+| model orchestration                 | #airflow, #argoflow                   |
+| IaC                                 | #terraform                            |
+| CICD                                | #github #gitlab workflow |
+| Monitor                             | #prometheus #grafana                  |
 
 # lineage visibility:
 

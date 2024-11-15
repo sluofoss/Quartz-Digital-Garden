@@ -16,13 +16,13 @@ tags:
 
 | tool           | best dataframe format |
 | -------------- | --------------------- |
-| Power bi       | long                  |
+| #powerbi       | long                  |
 | seaborn        | long                  |
 | altair         | long                  |
 | plotly express | long                  |
-| plotly         | wide                  |
+| #plotly         | wide                  |
 | matplotlib     | wide                  |
-| pandas         | wide                  |
+| #pandas         | wide                  |
 | bokeh          | wide                  |
 
 https://anvil.works/blog/tidy-data
