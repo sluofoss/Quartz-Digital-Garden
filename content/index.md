@@ -21,10 +21,6 @@ Computer Science Exchange to HKUST: Fall 2019
 
 #### Programming Language:
 
-<img src = 'https://cdn.cookielaw.org/logos/4a2cde9e-5f84-44b2-bdbb-6a93354d1c72/e1199e19-1935-49fa-a4e2-bf7f9d08cee6/783d7c83-af8c-4032-901b-b3ec48982078/dbt-logo.png' alt = 'dbt' height = '100'>
-
-<img src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROFKxN5ouHmQvjvoI4JR5TBbTuiG_AUd9Fhw&s' alt = 'teradata' height = '100'>
-
 <img src = 'https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/java_icon.png' alt = 'java' height = '100'>
 
 <img src = 'https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/python_icon.png' alt = 'python' height = '100'>
@@ -36,6 +32,8 @@ Computer Science Exchange to HKUST: Fall 2019
 <img src = 'https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/r_icon.png' alt = 'R' height = '100'>
 
 #### Libraries/Framework:
+<img src = 'https://cdn.cookielaw.org/logos/4a2cde9e-5f84-44b2-bdbb-6a93354d1c72/e1199e19-1935-49fa-a4e2-bf7f9d08cee6/783d7c83-af8c-4032-901b-b3ec48982078/dbt-logo.png' alt = 'dbt' height = '100'>
+<img src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROFKxN5ouHmQvjvoI4JR5TBbTuiG_AUd9Fhw&s' alt = 'teradata' height = '100'>
 
 ![pyqt](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/pyqt_icon.png)
 ![PyTorch](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/pytorch_icon.png)

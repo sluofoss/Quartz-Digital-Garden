@@ -29,6 +29,8 @@ feature engine only supports pandas , not polars
 
 [Spark, Dask, and Ray: Choosing the Right Framework (domino.ai)](https://domino.ai/blog/spark-dask-ray-choosing-the-right-framework)
 
+# conceptual difference between polars and spark
+- https://docs.pola.rs/user-guide/migration/spark/
 
 # compatibility layer on top of dataframe libraries:
 - #narwhals

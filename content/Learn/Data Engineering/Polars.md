@@ -13,3 +13,6 @@ updated: 2024-11-16
 > Polars UDF will be much much faster than pandas UDFs, I already tried it, it gave about x1.5 - x2
 
 [reddit source](https://www.reddit.com/r/dataengineering/comments/1ehbgfl/comment/lfyr3dz/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+
+# detail tutorial on best way to use polars 
+https://kevinheavey.github.io/modern-polars/tidy.html#pivot-and-melt
