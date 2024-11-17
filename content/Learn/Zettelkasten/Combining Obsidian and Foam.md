@@ -1,7 +1,7 @@
 ---
 title: Combining Obsidian and Foam
 created: 2024-11-09T22:45
-updated: 2024-11-10T00:29
+updated: 2024-11-18T01:29
 ---
 
 # Problems:
@@ -17,6 +17,12 @@ updated: 2024-11-10T00:29
 	3. obsidian plugins:
 		1. ✅ #dataview
 			1. nothing so far to migrate
+			2. there are efforts to bring #dataview outside of obsidian
+				1. https://github.com/foambubble/foam/discussions/1312
+				2. https://github.com/sn3akiwhizper-vscode/dataview-vscode
+				3. https://github.com/blacksmithgu/obsidian-dataview/discussions/1596
+				4. https://github.com/datopian/markdowndb
+				5. https://github.com/stereobooster/braindb/tree/main/packages/remark-dataview
 		2. ✅ #templater
 			1. nothing so far to migrate
 		3. ✅ #excalidraw

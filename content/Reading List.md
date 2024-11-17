@@ -1,7 +1,7 @@
 ---
 title: Reading List
 created: 2024-09-30T21:35
-updated: 2024-10-19T20:19
+updated: 2024-11-18T01:23
 ---
 
 
@@ -15,3 +15,5 @@ updated: 2024-10-19T20:19
 # random site found online
 - https://stacks.math.columbia.edu/tag/0C18
 - https://rationalwiki.org/wiki/List_of_secular_holidays
+- https://deepaksood619.github.io/devops/ides/obsidian/
+  - another guy's obsidian digital garden which this one will hopefully grow to in 5 years.
