@@ -1,8 +1,7 @@
 ---
 title: Holiday Destination Flight Recommendation and EDA
 created: 2024-11-10
-updated: 2024-11-10
-
+updated: 2024-11-18T00:49
 ---
 
 # website idea

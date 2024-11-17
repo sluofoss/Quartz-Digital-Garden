@@ -1,7 +1,7 @@
 ---
 title: TODOS
 created: 2024-10-16T00:13
-updated: 2024-11-05T23:47
+updated: 2024-11-18T00:54
 ---
 
 - [ ] add github workflow to alt-learn and finance-etc
@@ -16,4 +16,6 @@ updated: 2024-11-05T23:47
 - [ ] explore #Logseq after December, maybe performance ready and could be self hosted. 
 	- the performance ready is done by migrate from markdown to sqlite
 	- it should still have import + export option with markdown
-- [ ] burn out/ hard print #dataview result using #templater such that it can be exported to quartz https://github.com/blacksmithgu/obsidian-dataview/issues/42 
+❌ <del>burn out/ hard print #dataview result using #templater such that it can be exported to quartz https://github.com/blacksmithgu/obsidian-dataview/issues/42 </del>
+	- decide to keep things as portable as possible and dataview is not portable to foam
+- [ ] set up rclone with cloud storage

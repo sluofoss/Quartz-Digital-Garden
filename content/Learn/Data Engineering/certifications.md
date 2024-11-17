@@ -1,7 +1,7 @@
 ---
 title: certifications
 created: 2024-09-30T21:31
-updated: 2024-10-17T20:56
+updated: 2024-11-18T00:47
 tags:
   - data-engineering
 ---

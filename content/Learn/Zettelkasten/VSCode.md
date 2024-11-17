@@ -1,8 +1,7 @@
 ---
 title: VSCode
 created: 2024-11-16
-updated: 2024-11-16
-
+updated: 2024-11-18T00:50
 ---
 # list of installed extensions
 - dev containers

@@ -1,7 +1,7 @@
 ---
 title: AWS DE
 created: 2024-09-30T21:35
-updated: 2024-10-10T00:04
+updated: 2024-11-18T00:47
 draft: "true"
 ---
 
