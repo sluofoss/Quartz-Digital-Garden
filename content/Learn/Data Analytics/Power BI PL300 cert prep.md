@@ -3,7 +3,6 @@ title: Power BI PL300 cert prep
 created: 2024-12-19
 updated: 2024-12-19
 tags:
-  - data-analytics
   - powerbi
 ---
 

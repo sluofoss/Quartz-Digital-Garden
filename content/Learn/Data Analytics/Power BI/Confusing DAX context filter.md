@@ -3,7 +3,7 @@ title: Confusing DAX Context Filter
 created: 2024-11-28
 updated: 2024-11-28
 tags:
-  - data-analytics
+  - powerbi
 ---
 
 # Context: suppose you would like to create a cumulative plot in dax.

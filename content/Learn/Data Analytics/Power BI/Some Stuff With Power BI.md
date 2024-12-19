@@ -3,7 +3,6 @@ title: Some Stuff With Power BI
 created: 2024-10-03T20:59
 updated: 2024-11-10T00:30
 tags:
-  - data-analytics
   - powerbi
 ---
 
