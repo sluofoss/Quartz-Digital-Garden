@@ -137,3 +137,7 @@ In the endorsements section, choose "Certified" and apply the changes.
 - report setting can allow viewer to personalize visual when accessed in pbi service
 
 
+# uncollated practice exam question feedback
+<iframe>
+<script src="https://gist.github.com/sluofoss/8c33332f82cdbc9d16cf33b981176993.js"></script>
+</iframe>
