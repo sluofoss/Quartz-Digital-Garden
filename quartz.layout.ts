@@ -36,6 +36,7 @@ export const defaultContentPageLayout: PageLayout = {
         repelForce: 1,
         linkDistance: 20,
         //centerForce: 0
+        depth: 2,
       },
       globalGraph:{
         repelForce: 0.1,

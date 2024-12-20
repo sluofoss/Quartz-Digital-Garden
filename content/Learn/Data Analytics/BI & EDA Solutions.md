@@ -27,7 +27,7 @@ tags:
 - #KanariesPyGWalker
 	- allows tableau eda experience inside Jupyter notebook
 - bare-metal self serve
-	- #plotly + #dash + #dbt for semantic layer
+	- #plotly + #Dash + #dbt for semantic layer
 		- still uses pandas as final layer for plotting https://plotly.com/blog/polars-to-build-fast-dash-apps-for-large-datasets/
 		- but nothing stopping using polars to do heavy data wrangling prior to convert to pandas for final plot.
 	- #bokeh + #streamlit + #dbt
@@ -37,3 +37,13 @@ tags:
 - #tableau
 # Proprietary that gets stuffed down everyone's throat
 - #powerbi
+
+# Comparison
+## 🖊 TODO
+- [ ] refactor below into table
+## Interesting stuff that #powerbi #tableau cant do, but come with [[Dash]]
+- user edited table ( this allows form entry and calculator style interface).
+- some custom visual exists in #powerbi appsource or marketplace but are all proprietory and paid.
+  - Most likely require power platform (power app and dataflow as well)
+- can be achieved with power app, but power app workflow free tier has 750 limit.
+  - described as write back by powerbi and tableau

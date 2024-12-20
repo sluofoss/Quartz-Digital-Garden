@@ -77,6 +77,7 @@ updated: 2024-11-09T22:22
   - foam and vscode both have **variables** that one can use in templating
     - https://code.visualstudio.com/docs/editor/userdefinedsnippets
     - https://foambubble.github.io/foam/user/features/note-templates.html
+  - foam can control what folder and file type to include in the graph by vscode configuration.
 
 - vscode/vscodium + #foam + #logseq + #loam
 
