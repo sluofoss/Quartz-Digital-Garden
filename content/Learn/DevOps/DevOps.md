@@ -23,6 +23,8 @@ Key areas include:
 
 # #data-science + DevOps (sometimes called " [[MLOps]] ")
 
+[[MLOps]] is a specialized case of devops where the principal is the same but infrastructure differs somewhat from devops in software development.
+
 Focuses on operationalizing machine learning models and maintaining reproducible experiments
 Key areas include:
 
@@ -55,7 +57,7 @@ Key areas include:
 Version Control: Git for code, DVC for data
 Containerization: #docker for consistent environments
 Orchestration: #k8s, #airflow for workflows
-Infrastructure: Terraform, CloudFormation for provisioning
+Infrastructure: [[Terraform]], CloudFormation for provisioning
 Monitoring: #prometheus, #grafana for metrics and visualization
 CI/CD: #jenkins, GitLab CI for automation
 

@@ -33,7 +33,7 @@ https://developers.teradata.com/quickstarts/manage-data/getting-started-dbt-feas
 | model registry                      | #mlflow                               |
 | model serve                         | #kubeflow                             |
 | model orchestration                 | #airflow, #argoflow                   |
-| IaC                                 | #terraform                            |
+| IaC                                 | [[Terraform]]                            |
 | CICD                                | #github #gitlab workflow |
 | Monitor                             | #prometheus #grafana                  |
 
