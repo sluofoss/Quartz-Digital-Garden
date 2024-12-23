@@ -31,6 +31,13 @@ https://www.reddit.com/r/learnprogramming/comments/3lu9eq/difference_between_git
 https://comparisontabl.es/cloud-storage/
 https://www.cnblogs.com/Dongmy/p/18143085
 https://www.reddit.com/r/ObsidianMD/comments/178g23v/never_lose_your_documents_use_rclone_or_worse_yet/
+
+# Why Onedrive is a PITA
+- doesnt support custom folder back up
+  - this makes folders scatter on different hard drives and linked to other sync services hard to migrate over.
+- once organization account is deleted, data is gone locally
+- sync is resource intensive and somewhat unreliable
+
 # home server for file storage
 https://www.reddit.com/r/HomeServer/comments/13jdi8x/comment/jkh3fio/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
 https://nextcloud.com/files/

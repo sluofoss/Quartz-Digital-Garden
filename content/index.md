@@ -5,7 +5,16 @@ title: Sean Luo
 created: 2024-09-30T21:35
 updated: 2024-11-18T01:09
 ---
-## About
+## About this website
+This is my digital garden for learning and inspirations. Mostly filled with soon-to-be-sanitized notes. 
+> [!TIP]
+> To find topics of interest, there are 3 methods:
+>
+> 1. use note explorer on bottom left  
+> 2. use text search on top left
+> 3. open graph view to see connections between different notes and topics. One can click and hold on a node to unfold overlapping graph areas.
+
+## About me
 
 Data Professional with 2 YOE in pipeline, modelling and BI. My expertise spans across ETL processes, big data technologies, and cloud platforms, ensuring seamless data integration and accessibility. I am passionate about leveraging data to solve complex problems and enhance decision-making processes. With a strong foundation in both data engineering and data science, I bring a unique blend of technical skills and analytical thinking to the table. I thrive in collaborative environments and am committed to continuous learning and innovation in the ever-evolving field of data.
 

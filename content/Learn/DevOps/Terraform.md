@@ -5,33 +5,6 @@ title: Terraform
 tags:
   - iaac
 ---
-# Table of Content
-- [Table of Content](#table-of-content)
-- [Terraform: up \& running by Yevgeniy Brikman notes](#terraform-up--running-by-yevgeniy-brikman-notes)
-  - [chapter 1 why terraform](#chapter-1-why-terraform)
-    - [4 core values to devops](#4-core-values-to-devops)
-    - [Five broad categories of IaC tools:](#five-broad-categories-of-iac-tools)
-    - [Tradeoff comparison with other tools](#tradeoff-comparison-with-other-tools)
-      - [Configuration management versus provisioning](#configuration-management-versus-provisioning)
-      - [Mutable infrastructure versus immutable infrastructure](#mutable-infrastructure-versus-immutable-infrastructure)
-      - [Procedural language versus declarative language](#procedural-language-versus-declarative-language)
-      - [General-purpose language versus domain-specific language](#general-purpose-language-versus-domain-specific-language)
-      - [Master versus masterless](#master-versus-masterless)
-      - [Agent versus agentless](#agent-versus-agentless)
-      - [Paid versus free offering](#paid-versus-free-offering)
-      - [Large community versus small community](#large-community-versus-small-community)
-      - [Mature versus cutting-edge](#mature-versus-cutting-edge)
-      - [Use of multiple tools together](#use-of-multiple-tools-together)
-  - [chapter 2 getting started](#chapter-2-getting-started)
-  - [chapter 3 manage state](#chapter-3-manage-state)
-  - [chapter 4 reusable module](#chapter-4-reusable-module)
-  - [chapter 5 tips and tricks loops, ifs, deploy and gotcha](#chapter-5-tips-and-tricks-loops-ifs-deploy-and-gotcha)
-  - [chapter 6 managing secrets](#chapter-6-managing-secrets)
-  - [chapter 7 multi providers](#chapter-7-multi-providers)
-  - [chapter 8 production grade terraform code](#chapter-8-production-grade-terraform-code)
-  - [chapter 9 testing terraform code](#chapter-9-testing-terraform-code)
-  - [chapter 10 use terraform as a team](#chapter-10-use-terraform-as-a-team)
-
 
 
 # Terraform: up & running by Yevgeniy Brikman notes
