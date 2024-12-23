@@ -3,7 +3,7 @@ title: Unsupervised Learning
 created: 2024-11-16
 updated: 2024-11-16
 tags: 
-  - machine-learning
+  - data-science
 ---
 
 # clustering and outlier detection

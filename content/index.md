@@ -47,7 +47,7 @@ Computer Science Exchange to HKUST: Fall 2019
 
 #### Knowledge:
 
-* #statistical-modelling, #machine-learning, #data-engineering, #data-analytics
+* #statistical-modelling, #data-science, #data-engineering, #data-analytics
 
 ## Projects
 

@@ -4,7 +4,7 @@ created: 2024-09-30T21:35
 updated: 2024-11-17T23:57
 tags:
   - sklearn
-  - machine-learning
+  - data-science
 ---
 
 

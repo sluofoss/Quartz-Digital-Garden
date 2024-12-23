@@ -13,5 +13,7 @@ tags:
 related terms:
 
 - notice block
+- admonitions (using combination of emphasis and emoji to create custom notice blocks)
+  - https://www.markdownguide.org/hacks/#admonitions
 - alert
 - quote [https://www.markdownguide.org/basic-syntax/#blockquotes-1](https://www.markdownguide.org/basic-syntax/#blockquotes-1)

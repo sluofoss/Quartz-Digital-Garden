@@ -3,7 +3,7 @@ title: micro vs macro precision
 created: 2024-11-06T00:14
 updated: 2024-11-06T00:24
 tags:
-  - machine-learning
+  - data-science
 ---
 
 

@@ -1,11 +1,10 @@
 ---
 created: 2024-12-23T14:49
 updated: 2024-12-23T15:02
+title: Terraform
 tags:
-  - devops
   - iaac
 ---
-
 # Table of Content
 - [Table of Content](#table-of-content)
 - [Terraform: up \& running by Yevgeniy Brikman notes](#terraform-up--running-by-yevgeniy-brikman-notes)
@@ -38,7 +37,7 @@ tags:
 # Terraform: up & running by Yevgeniy Brikman notes
 
 ## chapter 1 why terraform
-- devops is not a job title, it's a set of processes, ideas, techniques.
+- [[DevOps]] is not a job title, it's a set of processes, ideas, techniques.
 > [!TIP]
 > The goal of DevOps is to make software delivery vastly more efficient.
 > 
