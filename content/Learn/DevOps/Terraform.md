@@ -8,6 +8,12 @@ tags:
 
 
 # Terraform: up & running by Yevgeniy Brikman notes
+> [!NOTE]
+> this book uses #aws for example. 
+> the prerequisite for Certificate `HashiCorp Certified: Terraform Authoring and Operations Professional` is experience with aws in production environment
+>
+
+
 
 ## chapter 1 why terraform
 - [[DevOps]] is not a job title, it's a set of processes, ideas, techniques.
@@ -176,7 +182,7 @@ how stable and old is the tool
 author from https://www.gruntwork.io/, also now support OpenTofu
 
 ## chapter 2 getting started
-### [Optional] Tutorial
+### Tutorial/chapter Outline
 - setting up aws account
 - install terraform (locally)
 - deploy single server
@@ -185,27 +191,64 @@ author from https://www.gruntwork.io/, also now support OpenTofu
 - deploy load balancer 
 - clean up
 
-### takeaway
+### command takeaway
 - `terraform init` is idempotent, and run everytime looking at new code
 - `terraform plan` review proposed change before `apply`
+  - +/- indicates resource that is getting replace
+  - text saying `force replace` from `terraform plan` shows what causes the change
+- to see dependency, do `terraform graph`
+- `graph` text output can be visualized using graphviz
+- `destroy` removes the resources defined in a terraform code base
+> [!CAUTION]
+> rarely if ever, run `destroy` in production
+### code takeaway
+- terraform `resource` come from providers.
+- `resource` have `tags`
+- `resource` interdepends and terraform can figure out the dependency and what to build first.
+- `variable` keeps code DRY (dont repeat yourself)
+  - have optional configs:
+    - description
+    - default
+      - can receive from cmd, file, env var (TF_VAR_VNAME)
+    - type 
+    - validation
+    - sensitive
+- interpolation allow you to put variable inside a string literal (e.g. user script to run on initiation of ec2), like python format string. Syntax: `${...}`
+- `output` are used to store fields that are only generated after a resource is created.
+  - optional config:
+    - name
+    -  description
+    -  sensitive
+       -  whether to not print it in the log (i.e. secret or password)
+    -  depends_on
+- resource `lifecycle`
+  - when config to resource changes, and it is referenced else where. by default the original resource can't get destroyed due to the reference.
+  - to fix this, use `lifecycle` rule `create_before_destroy` such that the replacement is created and then substitute the old resource, and then the old resource will be destroyed.
+- data source
+  - a piece of read-only information that is fetched from the provider
+  - For example, the AWS Provider includes data sources to look up VPC data, subnet data, AMI IDs, IP address ranges, the current user’s identity, and much more
+  - optional configs are search parameters using the provider api
 
-- terraform resource come from providers.
-- resource have tags
-- resource interdepends and terraform can figure out the dependency and what to build first.
-- dependency can be visualized using graphviz
-
+### other knowledge
+> [!NOTE]
+> The only servers you should run in public subnets are a small number of reverse proxies and load balancers that you lock down as much as possible
 
 ## chapter 3 manage state
+- state should not be checked in
 
 ## chapter 4 reusable module
+- Input and output variables are also essential ingredients in creating configurable and reusable infrastructure code
 
 ## chapter 5 tips and tricks loops, ifs, deploy and gotcha
+- zero down time deploy
 
 ## chapter 6 managing secrets
 
 ## chapter 7 multi providers
 
 ## chapter 8 production grade terraform code
+- lock file (can be checked)
+- variable validation beyond basic type check (e.g. range)
 
 ## chapter 9 testing terraform code
 
