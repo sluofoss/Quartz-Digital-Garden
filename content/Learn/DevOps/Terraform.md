@@ -235,9 +235,48 @@ author from https://www.gruntwork.io/, also now support OpenTofu
 
 ## chapter 3 manage state
 - state should not be checked in
+### chapter outline
+- shared storage for state files
+- limitation with tf backend
+- state file isolation
+- `terraform_remote_state` data source
+
+# takeaway
+on off-chance that one need to edit the state file manually, use `terraform import` or `terraform state` cmd - see chapter 5
+
+state file challenges:
+- shared storage
+- locking during concurrent apply
+- isolating state between environments
+
+issue with version control state and resolved via remote backend:
+|     | manual error                           | locking                                              | secrets                                                            |
+| :-- | :------------------------------------- | :--------------------------------------------------- | :----------------------------------------------------------------- |
+| git | very easy to forget git pull           | git doesn't do this                                  | state is stored as plain text                                      |
+| remote backend  | state loaded automatically via backend | most remote backend like s3 support locking natively | encrypt during transit and at rest. Also support access iam config |
+| s3 (example of remote) | managed service, high durability and availability, versioning for rollback | locking via dynamoDB | server side encrypt with AES256, transit encrypt with TLS |
+
+bucket as remote backend reference diagram (separate tf folder)
+> [!NOTE] the reference could be via resource tf name or attributes, to see which see book and docs.
+
+
+```mermaid
+graph LR
+
+aws_s3_bucket_versioning --> aws_s3_bucket
+aws_s3_bucket_server_side_encryption_configuration --> aws_s3_bucket
+aws_s3_bucket_public_access_block --> aws_s3_bucket
+aws_dynamodb_table
+terraform.backend.s3 --> aws_s3_bucket
+terraform.backend.s3 --> aws_dynamodb_table
+```
+
+### limitation with tf backend
+- chicken and egg
 
 ## chapter 4 reusable module
 - Input and output variables are also essential ingredients in creating configurable and reusable infrastructure code
+
 
 ## chapter 5 tips and tricks loops, ifs, deploy and gotcha
 - zero down time deploy
