@@ -5,6 +5,11 @@ updated: 2024-11-05T22:38
 tags:
   - markdown
 ---
+# Principles
+> :bulb: always try to minimize usage of custom flavour syntax
+> 
+> :exclamation: prioritize compatibility with obsidian and github flavour
+
 
 # formatting
 
