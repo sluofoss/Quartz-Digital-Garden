@@ -98,13 +98,21 @@ updated: 2024-11-09T22:22
 
 # markdown publishing methods
 - https://www.reddit.com/r/ObsidianMD/comments/16e5jek/best_way_to_selfhost_obsidian_publish/
-> Take a look at static site generators (SSGs) — there are many. Quartz, Jekyll, Hugo, Astro, Eleventy
+> Take a look at static site generators (SSGs) — there are many. #Quartz, #Jekyll, #Hugo, #Astro, #Eleventy
+
+-  also consider #Mkdocs (seems to have a lot of plugins in ecosystem)
+   -  https://github.com/mkdocs/catalog/
+
+
 - the biggest concern with SSG is:
   1.  how well they can render different diagrams (mermaid, graphviz, plantuml, excalidraw)
       1.  jekyll, hugo doesnt seem to have mature out of box plugins for a lot of visuals
   2.  whether it is possible to show the note backlinks as network graphs (bidirectional optional)
       1.  https://quartz.jzhao.xyz/advanced/making-plugins
       2.  perhaps it is possible to create a plugin for this? #project-ideas
+      3.  https://github.com/mkdocs/mkdocs/discussions/2371
+      4.  https://github.com/foambubble/foam/issues/58
+          1.  discusses the use of d3.js to develop a plugin for gatsby publish.
 
 # Potential issues:
 

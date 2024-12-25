@@ -1,7 +1,7 @@
 ---
 title: Diagrams as Code
 created: 2024-10-13T22:01
-updated: 2024-11-05T22:38
+updated: 2024-12-26T00:05
 tags:
   - diagram
 ---
@@ -27,3 +27,21 @@ tags:
         - use some api call of the dataview plugin to convert things into markdown, 
         - embedded in any markdown doc, 
         - and then use obsidian publish.
+# example of failing to rendering graphviz diagram in github readme due to multi line inside link
+![Alt text]("https://g.gravizo.com/svg?
+  digraph G {
+    size ="4,4";
+    main [shape=box];
+    main -> parse [weight=8];
+    parse -> execute;
+    main -> init [style=dotted];
+    main -> cleanup;
+    execute -> { make_string; printf}
+    init -> make_string;
+    edge [color=red];
+    main -> printf [style=bold,label="100 times"];
+    make_string [label="make a string"];
+    node [shape=box,style=filled,color=".7 .3 1.0"];
+    execute -> compare;
+  }
+")
