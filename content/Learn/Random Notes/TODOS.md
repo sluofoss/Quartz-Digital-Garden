@@ -19,3 +19,5 @@ updated: 2024-11-18T00:54
 ❌ <del>burn out/ hard print #dataview result using #templater such that it can be exported to quartz https://github.com/blacksmithgu/obsidian-dataview/issues/42 </del>
 	- decide to keep things as portable as possible and dataview is not portable to foam
 - [ ] set up rclone with cloud storage
+- [ ] quartz sort recent note by modified date
+- [ ] auto update modified date in vscode
