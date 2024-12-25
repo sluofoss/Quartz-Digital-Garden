@@ -274,6 +274,8 @@ terraform.backend.s3 --> aws_dynamodb_table
 ### limitation with tf backend
 - chicken and egg
 
+> [!TIP] maybe to document future project, explore method to visualize graphviz in markdown (`terraform graph` output graphviz text)
+> 
 ## chapter 4 reusable module
 - Input and output variables are also essential ingredients in creating configurable and reusable infrastructure code
 

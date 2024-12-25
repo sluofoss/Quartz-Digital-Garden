@@ -2,7 +2,14 @@
 title: ideas
 created: 2024-09-30T21:35
 updated: 2024-12-09T00:29
+tags:
+    - project-ideas
 ---
+# how to track thought
+- whenever idea comes up in other notes, tag them with #project-ideas such that I can locate potential resources later.
+
+# list of ideas
+
 
 * Web Crawler of Food recipe
 
@@ -19,3 +26,5 @@ updated: 2024-12-09T00:29
 	* also have tabulate export to csv option
 	* the idea is that you do your own research.
 * Dash Calculator website that does comparison of property and check affordability
+  * https://github.com/sluofoss/property_path
+* obsidian quartz plugin to render different visual diagrams?

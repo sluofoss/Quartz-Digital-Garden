@@ -12,7 +12,7 @@ updated: 2024-11-09T22:22
 - support back linking between codes
 - support note linkage graph
 - auto update time on edit
-- 
+- conversion to digital garden
 
 ## optional
 
@@ -67,6 +67,7 @@ updated: 2024-11-09T22:22
     - logseq apk performance on mobile apparent have issues on low spec devices.
     - people are getting impatient for feature development. Apparently the database (db) version (speed up local caching) has been in development for a while.
       - [Database version (closed alpha test started) on Logseq Roadmap | Trello](https://trello.com/c/0hUluTN4/1128-database-version-closed-alpha-test-started)
+
 - [[VSCode]]/#vscodium + #foam
 
   - version 0.26 graph have issue in github codespace (local works fine)
@@ -82,6 +83,8 @@ updated: 2024-11-09T22:22
 - vscode/vscodium + #foam + #logseq + #loam
 
   - #loam is vscode extension
+  - #foam bubble is not exclusive with obsidian markdown, and can also use quartz to publish
+
 - vscode/vscodium + #dendron
 
   - in maintenance mode, no longer in active development.
@@ -92,6 +95,16 @@ updated: 2024-11-09T22:22
 
   - https://tana.inc/engineering
   - https://www.reddit.com/r/logseq/comments/1epxcm5/when_logseq_db_will_be_available_to_the_public_in/
+
+# markdown publishing methods
+- https://www.reddit.com/r/ObsidianMD/comments/16e5jek/best_way_to_selfhost_obsidian_publish/
+> Take a look at static site generators (SSGs) — there are many. Quartz, Jekyll, Hugo, Astro, Eleventy
+- the biggest concern with SSG is:
+  1.  how well they can render different diagrams (mermaid, graphviz, plantuml, excalidraw)
+      1.  jekyll, hugo doesnt seem to have mature out of box plugins for a lot of visuals
+  2.  whether it is possible to show the note backlinks as network graphs (bidirectional optional)
+      1.  https://quartz.jzhao.xyz/advanced/making-plugins
+      2.  perhaps it is possible to create a plugin for this? #project-ideas
 
 # Potential issues:
 
