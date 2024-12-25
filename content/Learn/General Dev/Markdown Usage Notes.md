@@ -32,9 +32,9 @@ CommonMark does not have admonition/ alert block syntax. This is supported in #g
 
 #github call this alerts. https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts
 
-#obsidian references admonition as callout. https://help.obsidian.md/Editing+and+formatting/Callouts
+#Obsidian references admonition as callout. https://help.obsidian.md/Editing+and+formatting/Callouts
 
-#obsidian seems to support more type of admonition than github. 
+#Obsidian seems to support more type of admonition than github. 
 
 #quartz callout come from obsidian. https://quartz.jzhao.xyz/features/callouts
 

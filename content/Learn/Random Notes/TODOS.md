@@ -13,9 +13,11 @@ updated: 2024-11-18T00:54
 - [ ] set up cloudflare email forwarding with custom domain
 	- forward to personal email + send using custom domain using sendgrid (?)
 	- https://www.reddit.com/r/selfhosted/comments/13p993z/cloudflare_email_forwarding/
-- [ ] explore #Logseq after December, maybe performance ready and could be self hosted. 
+❌ explore #Logseq after December, maybe performance ready and could be self hosted. 
 	- the performance ready is done by migrate from markdown to sqlite
 	- it should still have import + export option with markdown
+    	- at 12/26, it seems like the DB version is still in alpha trial.
+    	- as this vault is not expected to reach something that requires a DB to be managed anytime soon, shift focus to investigate compatibility between #Obsidian and #foam
 ❌ <del>burn out/ hard print #dataview result using #templater such that it can be exported to quartz https://github.com/blacksmithgu/obsidian-dataview/issues/42 </del>
 	- decide to keep things as portable as possible and dataview is not portable to foam
 - [ ] set up rclone with cloud storage

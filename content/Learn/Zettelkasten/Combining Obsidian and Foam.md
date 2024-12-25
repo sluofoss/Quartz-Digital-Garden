@@ -5,7 +5,7 @@ updated: 2024-11-18T01:29
 ---
 
 # Problems:
-1. #obsidian is closed source and require purchase commercial license to be used for work
+1. #Obsidian is closed source and require purchase commercial license to be used for work
 	1. ✅ #foam or #logseq is the viable future.
 		1. foam work in vscode, (1 less app to be installed from company IT perspective)
 		2. logseq can serve web client via docker.

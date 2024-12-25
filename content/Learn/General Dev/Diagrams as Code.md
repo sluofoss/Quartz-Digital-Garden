@@ -1,7 +1,7 @@
 ---
 title: Diagrams as Code
 created: 2024-10-13T22:01
-updated: 2024-12-26T01:05
+updated: 2024-12-26T00:55
 tags:
   - diagram
 ---
@@ -37,7 +37,7 @@ tags:
         - sed approach
           - https://www.heaton.dev/2022/05/use-terraform-graph-in-mermaidjs/
   - https://kroki.io/ has api taking diagram encoded using deflate + base64 algorithm. This can act as a substitute until one learn how to use `sed` to do dirty conversion from `dot` to `mermaid` as described in 
-  - #obsidian has plugins that support graphviz. However, to render output from custom obsidian plugin feels complicated. 
+  - #Obsidian has plugins that support graphviz. However, to render output from custom obsidian plugin feels complicated. 
     - https://joschua.io/posts/2023/09/01/obsidian-publish-dataview
       - this is trying to:
         - use some api call of the dataview plugin to convert things into markdown, 

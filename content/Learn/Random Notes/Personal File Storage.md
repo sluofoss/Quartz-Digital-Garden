@@ -10,7 +10,7 @@ tags:
 - syncthing
 	- fast
 	- can work between devices on the same network, i.e. no cloud middle man
-	- had a lot of conflict issues with #obsidian plugin configs between android and desktop
+	- had a lot of conflict issues with #Obsidian plugin configs between android and desktop
 - rclone
 	- more of a back up interface to different cloud services (including self host)
 # Other Syncing
