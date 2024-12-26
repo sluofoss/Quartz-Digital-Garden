@@ -243,7 +243,7 @@ author from https://www.gruntwork.io/, also now support OpenTofu
 - state file isolation
 - `terraform_remote_state` data source
 
-# takeaway
+### takeaway
 on off-chance that one need to edit the state file manually, use `terraform import` or `terraform state` cmd - see chapter 5
 
 state file challenges:
@@ -381,6 +381,45 @@ main-xxx
 
 ## chapter 4 reusable module
 - Input and output variables are also essential ingredients in creating configurable and reusable infrastructure code
+
+### outline
+- basic
+- input 
+- local
+- output
+- gotchat
+- versioning
+
+### takeaway 
+- all previous directly `terraform apply` are root modules
+  - we need reusable modules
+
+- `provider` only configured in root module, not in reusable
+  - see more about providers in chapter 7 
+- after adding or modifying a module, one need to run `init` before run `plan` or `apply`
+
+- inputs defined within reusable module can be used when module is initiated in root module
+- local are for DRY such that same port configs are defined in 1 location. not accessible outside the reusable module
+- module output exposes different resource attributes such that different part of the module can be extended further for flexibility.
+  - e.g. 
+    - exposing additional ports for ec2
+    - auto scaling schedule for asg
+    - url of application load balancer
+  - for this reason it is better not to use **inline blocks** to define resources inside module
+    - The configuration for some Terraform resources can be defined either as **inline blocks** or as separate resources
+    - with **inline blocks**, one cant add additional ingress/egress rule outside the module  
+    - some example of resources with this issue include
+      - aws_security_group and aws_security_group_rule
+      - aws_route_table and aws_route
+      - aws_network_acl and aws_network_acl_rul
+- use `path.module`, `path.root`, `path.cwd` within modules to reference reusable scripts, like `user_data.sh`
+
+- for proper versioning and documentation between different environment, it is better to have modules in their own git repository and have terraform referencing them using tag/branch/commit. 
+  - tag recommended.
+  - terraform can connect to private repo using ssh
+
+> [!NOTE]
+> temp stop reading here cos chapter 1-4 should be enough for hands prototype, leave refactor for later
 
 
 ## chapter 5 tips and tricks loops, ifs, deploy and gotcha
