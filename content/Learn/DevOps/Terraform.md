@@ -7,7 +7,7 @@ tags:
 ---
 
 
-# Terraform: up & running by Yevgeniy Brikman notes
+# Terraform: up & running by Yevgeniy Brikman (edition 3) notes
 > [!NOTE]
 > this book uses #aws for example. 
 > the prerequisite for Certificate `HashiCorp Certified: Terraform Authoring and Operations Professional` is experience with aws in production environment
@@ -87,7 +87,8 @@ IaC introduces software engineering practices
 - reuse
 - happiness
 
-> [!NOTE] Terraform written in Go.
+> [!NOTE] 
+> Terraform written in Go.
 
 ### Tradeoff comparison with other tools
 
@@ -141,7 +142,8 @@ procedural downside:
 |           | security (connection to master)                                                                                     |
 
 #### Paid versus free offering
-> [!WARNING] teraform is no longer open source, still free. Consider using open tofu (an open source fork of terraform) as an alternative.
+> [!WARNING] 
+> teraform is no longer open source, still free. Consider using open tofu (an open source fork of terraform) as an alternative.
 > https://spacelift.io/blog/terraform-license-change#what-is-the-likely-impact-of-the-terraform-bsl-license-change
 
 - pulumi free is said to be not production ready. It needs the paided pulumi backend to support transactional checkpointing for fault tolerance and recovery, concurrent state locking (prevent team overriding causing corruption), encrypt state in transit and at rest
@@ -257,7 +259,8 @@ issue with version control state and resolved via remote backend:
 | s3 (example of remote) | managed service, high durability and availability, versioning for rollback | locking via dynamoDB | server side encrypt with AES256, transit encrypt with TLS |
 
 bucket as remote backend reference diagram (separate tf folder)
-> [!NOTE] the reference could be via resource tf name or attributes, to see which see book and docs.
+> [!NOTE] 
+> the reference could be via resource tf name or attributes, to see which see book and docs.
 
 
 ```mermaid
@@ -272,10 +275,110 @@ terraform.backend.s3 --> aws_dynamodb_table
 ```
 
 ### limitation with tf backend
-- chicken and egg
+1. chicken and egg
+  - need to
+    1. deploy the s3 bucket and dynamo db with local backend
+    2. add remote backend to main infra use new s3 and dynamo db
+  - to delete
+    1. remove backend config from main infra and run `terraform init` to copy state to local disk
+    2. run `terraform destroy` to delete the s3 and dynamo db table
 
-> [!TIP] maybe to document future project, explore method to visualize graphviz in markdown (`terraform graph` output graphviz text)
-> 
+  - one can share s3 bucket and table for all terraform code, i.e. creation only needs to be done once.
+2. `backend` code block does not support variables or references.
+   - native solution:
+     - but one can create a `backend.hcl` file and call that in `terraform init -backend-config=backend.hcl` (page 92)
+     - `key` for each state should still be unique and cant be refactored out
+       - otherwise it will override and destroy state of other stacks.
+   - use `terragrunt`
+
+> [!TIP] 
+> Maybe to document future project, explore method to visualize graphviz in markdown (`terraform graph` output graphviz text)
+> - [x] 1st stage explore done in [[Diagrams as Code.md]]
+
+### isolation via workspaces
+- 1 quick method to separate state between environments like `dev` `staging` `prod`
+  - quick and dirty
+  - doesn't highlight well which env `apply` ing to.
+  - prone to human error
+  - in s3 different sub folder/key is created for different workspaces, doesnt do this for default workspace
+  - can use ternary operator to change different config in resource (i.e. ec2 instance size) base on workspace
+    - `terrform.workspace == "default" ? "t2.medium" : "t2.micro"`
+- `terraform workspace show`
+- `terraform workspace new wpname`
+- `terraform plan` doesn't show workspace name in plan
+- `terraform workspace list` 
+- `terraform workspace select default` switch between created workspaces
+
+major drawbacks:
+- all stored in the same backend (cant do separate authentication and access control for isolated env)
+- not visible in code
+- hence easily destroy `prod` 
+
+### isolation via file layout
+- use folder for differnent env/component
+- different backend for different folder and env
+```
+stage (testing)
+  vpc
+  services
+    frontend-app
+    backend-app
+      variables.tf
+      outputs.tf
+      main.tf
+  data-storage
+    mysql
+    redis
+prod (user facing)
+  vpc
+  services
+    frontend-app
+    backend-app
+  data-storage
+    mysql
+    redis
+mgmt (devops tooling)
+  vpc
+  services
+    bastion-host
+    jenkins
+global (shared resources) (i.e. backend bucket and dynamo table)
+  iam
+  s3
+```
+
+The below 3 file is the minimum convention for splitting.
+```
+variables.tf
+outputs.tf
+main.tf
+```
+they can be divided up further into
+```
+dependencies.tf (external stuff) (I'm thinking data sources and external resources)
+providers.tf
+main-xxx
+  iam.tf
+  s3.tf
+```
+
+| advantage                 | disadvantage                                                                                                  | how to address disadvantage                                                    |     |
+| :------------------------ | :------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------- | :-- |
+| clear code/env layout     | cant create entire stack in 1 command                                                                         | `terragrunt` have `run-all` command                                            |     |
+| isolation minimize damage | code duplication                                                                                              | can be resolved using module. see chapter 4                                    |     |
+|                           | resource dependency visibility (cant reference things via aws_db_instance.foo.address if in different folder) | use terraform_remote_state data source. use `dependency` block in `terragrunt` |     |
+
+### `terraform_remote_state` data source 
+- quick and dirty 
+  - use variable with sensitive to input secrets (e.g. passwords and username)
+- outputs are stored in state file as well
+- how to reference attribute post declaration
+  - `data.terraform_remote_state.<NAME>.outputs.<ATTRIBUTE>`
+- `terraform console` is read-only
+- `data sources` are read-only
+- `templatefile` function allow you to use write user_scripts outside of .tf files to keep the code clean and reusable.
+
+
 ## chapter 4 reusable module
 - Input and output variables are also essential ingredients in creating configurable and reusable infrastructure code
 
