@@ -1,8 +1,8 @@
 ---
 title: AWS Networking
 created: 2024-12-24
-updated: 2024-12-24
-tags: 
+updated: 2024-12-31T15:17
+tags:
   - aws
 ---
 
