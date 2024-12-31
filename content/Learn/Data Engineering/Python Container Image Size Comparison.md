@@ -1,6 +1,6 @@
 ---
 created: 2024-12-31T13:44
-updated: 2025-01-01T04:04
+updated: 2025-01-01T04:13
 title: Python Container Image Size Comparison
 tags: 
 ---
@@ -72,7 +72,7 @@ Note that smaller the image, the more likely one runs into compatibility issues.
 | public.ecr.aws/lambda/python:3.12 | 532 MB    | 258 + 342 MB (prod + dev) | default aws python image                             |
 | python:3.12                       | 1.01 GB   | ?                         | debian based |
 | python:3.12-slim                  | 123 MB    |?   | does not contain a lot of defacto debian packages |
-| python:3.12-alpine                | 48 MB     | ?                         | smallest with near zero additional toolings like git |
+| python:3.12-alpine                | 48 MB     | ?                         | smallest with near zero additional toolings like git. in 2020 it was said to pip install from wheel 50x longer, but no longer the case with alpine specific wheels. [forum source ](https://news.ycombinator.com/item?id=38798233) |
 
 
 ## Container Image Registry Hosting
