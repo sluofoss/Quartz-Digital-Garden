@@ -1,8 +1,17 @@
 ---
 title: Reading List
 created: 2024-09-30T21:35
-updated: 2024-11-18T01:23
+updated: 2025-01-01T04:20
 ---
+# tech learning
+- [[Terraform]]
+  - [ ] Terraform : up and running : writing infrastructure as code
+Book by Yevgeniy Brikman
+- #k8s
+  - https://www.reddit.com/r/kubernetes/comments/1bzp3lg/want_to_learn_k8s_recommend_a_good_handson_book/
+  - https://www.reddit.com/r/devops/comments/xeiokr/best_book_on_kubernetes/
+  - [ ] Kubernetes in Action.
+  - [ ] Production Kubernetes
 
 
 # feature selection

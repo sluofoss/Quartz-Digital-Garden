@@ -1,6 +1,6 @@
 ---
 created: 2024-12-31T13:44
-updated: 2025-01-01T04:13
+updated: 2025-01-01T04:21
 title: Python Container Image Size Comparison
 tags: 
 ---
@@ -73,6 +73,11 @@ Note that smaller the image, the more likely one runs into compatibility issues.
 | python:3.12                       | 1.01 GB   | ?                         | debian based |
 | python:3.12-slim                  | 123 MB    |?   | does not contain a lot of defacto debian packages |
 | python:3.12-alpine                | 48 MB     | ?                         | smallest with near zero additional toolings like git. in 2020 it was said to pip install from wheel 50x longer, but no longer the case with alpine specific wheels. [forum source ](https://news.ycombinator.com/item?id=38798233) |
+
+> [!TIP] more reading on lightweight python deployment
+- https://stackoverflow.com/questions/69560808/how-to-build-a-custom-image-using-pythonalpine-for-use-with-aws-lambda
+- https://stackoverflow.com/questions/74211215/workflow-for-building-python-wheels-in-a-multistage-dockerfile-with-pipenv
+- https://stackoverflow.com/questions/58300046/how-to-make-lightweight-docker-image-for-python-app-with-pipenv
 
 
 ## Container Image Registry Hosting
