@@ -1,6 +1,6 @@
 ---
 created: 2024-12-31T13:44
-updated: 2025-01-01T03:39
+updated: 2025-01-01T04:04
 title: Python Container Image Size Comparison
 tags: 
 ---
@@ -75,6 +75,19 @@ Note that smaller the image, the more likely one runs into compatibility issues.
 | python:3.12-alpine                | 48 MB     | ?                         | smallest with near zero additional toolings like git |
 
 
-## Container Image registry hosting
-https://gist.github.com/JakubOboza/fbd6259f5b6321f17e8c3cdb1b095004
+## Container Image Registry Hosting
 
+### #aws
+
+ECR has a free tier of 50 GB for public image repo but not for private. Hence not suitable for enterprise usage. Also AWS Lambda can only pull from private repo, so the cost is unavoidable outside of 12 month free tier. 
+> https://www.reddit.com/r/aws/comments/1358jqy/lambda_docker_with_public_ecr/
+
+Plain storage cost of s3 (standard) vs ecr seems to be about 1:4 (without considering inter service transfer cost) at $0.1/GB for ECR.
+
+For s3 (infrequent) vs ecr cost ratio would be 1:7.
+
+However with request taken into account (constantly updating images) ecr seems better for development stage and large scale multi service deployment (cost of using image within lambda and fargate is free) and s3 seems better for backup.
+
+
+### other options outside of cloud and lambda context
+https://gist.github.com/JakubOboza/fbd6259f5b6321f17e8c3cdb1b095004
