@@ -1,6 +1,6 @@
 ---
 created: 2024-12-31T13:44
-updated: 2025-01-01T04:21
+updated: 2025-01-01T04:32
 title: Python Container Image Size Comparison
 tags: 
 ---
@@ -73,6 +73,14 @@ Note that smaller the image, the more likely one runs into compatibility issues.
 | python:3.12                       | 1.01 GB   | ?                         | debian based |
 | python:3.12-slim                  | 123 MB    |?   | does not contain a lot of defacto debian packages |
 | python:3.12-alpine                | 48 MB     | ?                         | smallest with near zero additional toolings like git. in 2020 it was said to pip install from wheel 50x longer, but no longer the case with alpine specific wheels. [forum source ](https://news.ycombinator.com/item?id=38798233) |
+
+
+> [!NOTE]
+> when time permits lets also consider uv images for a dev workflow that does all the following:
+> 	- deploy as container
+> 	- deploy as package
+> 	- packaging and publishing to pypi
+> https://docs.astral.sh/uv/guides/integration/docker/
 
 > [!TIP] more reading on lightweight python deployment
 - https://stackoverflow.com/questions/69560808/how-to-build-a-custom-image-using-pythonalpine-for-use-with-aws-lambda
