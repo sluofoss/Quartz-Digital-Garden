@@ -1,6 +1,6 @@
 ---
 created: 2024-12-31T13:44
-updated: 2025-01-01T04:32
+updated: 2025-01-01T04:34
 title: Python Container Image Size Comparison
 tags: 
 ---
@@ -81,6 +81,8 @@ Note that smaller the image, the more likely one runs into compatibility issues.
 > 	- deploy as package
 > 	- packaging and publishing to pypi
 > https://docs.astral.sh/uv/guides/integration/docker/
+> 
+> `uv` images have tags for flavourless, debian and alpine.
 
 > [!TIP] more reading on lightweight python deployment
 - https://stackoverflow.com/questions/69560808/how-to-build-a-custom-image-using-pythonalpine-for-use-with-aws-lambda
