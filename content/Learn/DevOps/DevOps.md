@@ -1,7 +1,7 @@
 ---
 title: DevOps
 created: 2024-12-23
-updated: 2024-12-23
+updated: 2025-01-01T15:09
 ---
 
 > [!WARNING]

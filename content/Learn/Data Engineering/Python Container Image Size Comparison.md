@@ -1,6 +1,6 @@
 ---
 created: 2024-12-31T13:44
-updated: 2025-01-01T04:34
+updated: 2025-01-01T15:38
 title: Python Container Image Size Comparison
 tags: 
 ---
@@ -67,13 +67,17 @@ According to AWS Official Documentation
 
 Note that smaller the image, the more likely one runs into compatibility issues. The below table will serve as a comparison of artifact size for python 3.12 on my personal project.
 
-| base image                        | base size | pip install size          | notes|
-| :-------------------------------- | :-------- | :------------------------ | :-----------------------|
-| public.ecr.aws/lambda/python:3.12 | 532 MB    | 258 + 342 MB (prod + dev) | default aws python image                             |
-| python:3.12                       | 1.01 GB   | ?                         | debian based |
-| python:3.12-slim                  | 123 MB    |?   | does not contain a lot of defacto debian packages |
-| python:3.12-alpine                | 48 MB     | ?                         | smallest with near zero additional toolings like git. in 2020 it was said to pip install from wheel 50x longer, but no longer the case with alpine specific wheels. [forum source ](https://news.ycombinator.com/item?id=38798233) |
+| base image                                    | base size | pip install size          | notes                                                                                                                                                                                                                                             |     |
+| :-------------------------------------------- | :-------- | :------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
+| public.ecr.aws/lambda/python:3.12             | 532 MB    | 258 + 342 MB (prod + dev) | default aws python image                                                                                                                                                                                                                          |     |
+| python:3.12                                   | 1.01 GB   | ?                         | debian based                                                                                                                                                                                                                                      |     |
+| python:3.12-slim                              | 123 MB    | ?                         | does not contain a lot of defacto debian packages                                                                                                                                                                                                 |     |
+| python:3.12-alpine                            | 48 MB     | ?                         | #alpine is the smallest with near zero additional toolings like git. in 2020 it was said to pip install from wheel 50x longer, but no longer the case with alpine specific wheels. [forum source ](https://news.ycombinator.com/item?id=38798233) |     |
+| ghcr.io/astral-sh/uv:python3.12-bookworm      | 1.04 GB   | ?                         |                                                                                                                                                                                                                                                   |     |
+| ghcr.io/astral-sh/uv:python3.12-bookworm-slim | 158 MB    |                           |                                                                                                                                                                                                                                                   |     |
+| ghcr.io/astral-sh/uv:python3.12-alpine        | 83 MB     |                           |                                                                                                                                                                                                                                                   |     |
 
+There are also flavourless container that essentially only have a binary boot up point, but that typically doesnt work well with python as packages would often have a lot of system make dependencies. (maybe it would work with uv? the uv distroless image is 34 MB, even less than python alpine. Need to read [put your uv project inside a docker container](https://bneijt.nl/blog/put-your-uv-project-inside-a-docker-container/). This is an example of how to achieve this.)
 
 > [!NOTE]
 > when time permits lets also consider uv images for a dev workflow that does all the following:
@@ -101,7 +105,7 @@ Plain storage cost of s3 (standard) vs ecr seems to be about 1:4 (without consid
 
 For s3 (infrequent) vs ecr cost ratio would be 1:7.
 
-However with request taken into account (constantly updating images) ecr seems better for development stage and large scale multi service deployment (cost of using image within lambda and fargate is free) and s3 seems better for backup.
+However with request taken into account (constantly updating images) ecr seems better for development stage and extra large scale multi service deployment (cost of using image within lambda and fargate is free) and s3 seems better for backup and internal usage.
 
 
 ### other options outside of cloud and lambda context

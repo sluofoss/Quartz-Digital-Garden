@@ -1,7 +1,7 @@
 ---
 title: MLOps
 created: 2024-11-05T22:50
-updated: 2024-11-10T00:30
+updated: 2025-01-01T15:20
 tags:
   - data-engineering
 ---
@@ -22,20 +22,20 @@ https://developers.teradata.com/quickstarts/manage-data/getting-started-dbt-feas
 
 # interested compatible FOSS stack components
 
-| type                                | tool                                  |
-| ----------------------------------- | ------------------------------------- |
+| type                                | tool                                              |
+| ----------------------------------- | ------------------------------------------------- |
 | data source                         | #spark #kafka #pulsar #api #warehouse #postgresql |
-| data source transform orchestration | #dbt #sqlmesh                         |
-| data source/model catalog           | #datahub #amundsen-io #OpenMetadata   |
-| feature store/share/documentation   | #feast                                |
-| model build/train                   | [[sklearn]], #spark, #xgboost #ray    |
-| model code dev                      | #mlflow                               |
-| model registry                      | #mlflow                               |
-| model serve                         | #kubeflow                             |
-| model orchestration                 | #airflow, #argoflow                   |
-| IaC                                 | [[Terraform]]                            |
-| CICD                                | #github #gitlab workflow |
-| Monitor                             | #prometheus #grafana                  |
+| data source transform orchestration | #dbt #sqlmesh                                     |
+| data source/model catalog           | #datahub #amundsen-io #OpenMetadata               |
+| feature store/share/documentation   | #feast                                            |
+| model build/train                   | [[sklearn]], #spark, #xgboost #ray                |
+| model code dev                      | #mlflow                                           |
+| model registry                      | #mlflow                                           |
+| model serve                         | #kubeflow                                         |
+| model orchestration                 | #airflow, #argoflow                               |
+| IaC                                 | [[Terraform]]                                     |
+| [[CICD]]                            | #github #gitlab workflow                          |
+| Monitor                             | #prometheus #grafana                              |
 
 # lineage visibility:
 
