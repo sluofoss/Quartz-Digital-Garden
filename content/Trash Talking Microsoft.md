@@ -1,8 +1,7 @@
 ---
 title: Trash Talking Microsoft
 created: 2024-12-26
-updated: 2024-12-26
-
+updated: 2025-01-06T14:50
 ---
 
 # The Data Engineering Predicament
@@ -39,6 +38,12 @@ Microsoft's documentation strategy creates additional challenges:
 - Preference for complex graphical interfaces over simple, efficient text-based solutions
 
 The most frustrating aspect is that these changes don't always represent improvements - sometimes they actively make things worse while breaking existing workflows.
+
+As someone elegantly coined it:
+> The most frustrating reference I’ve found recently is a link referencing itself. I spent a solid minute rereading the same page before realizing it was the same page I had just skimmed through.
+
+> They write it on the assumption that you actually already know everything they're telling you.
+[ms doc sucks |reddit](https://www.reddit.com/r/sysadmin/comments/1dcqcbw/microsoft_documentation_sucks/)
 # Conclusion
 While Microsoft's products remain central to many organizations' operations, their approach to software development and ecosystem management raises serious concerns. The combination of vendor lock-in, frequent abandonment of technologies, overcomplexification, and reliability issues creates an environment that's increasingly difficult to justify from both technical and business perspectives.
 As developers and system architects, we need to carefully consider these factors when making technology choices. Sometimes, the seemingly more complex path of open systems ultimately provides more stability, control, and long-term viability than Microsoft's supposedly integrated solutions.
