@@ -34,8 +34,9 @@ https://developers.teradata.com/quickstarts/manage-data/getting-started-dbt-feas
 | model serve                         | #kubeflow                                         |
 | model orchestration                 | #airflow, #argoflow                               |
 | IaC                                 | [[Terraform]]                                     |
-| [[CICD]]                            | #github #gitlab workflow                          |
-| Monitor                             | #prometheus #grafana                              |
+| [[CICD]]                            | #github #gitlab workflow #jenkins                 |
+| data reporting                      | #apache-superset #metabase #redash                |
+| service monitor                     | #prometheus #grafana                              |
 
 # lineage visibility:
 
