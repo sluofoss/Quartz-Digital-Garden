@@ -1,0 +1,128 @@
+---
+title: dax for model
+created: 2025-01-07
+updated: 2025-01-07
+draft: "true"
+---
+
+DAX also for RLS but RLS is not considered model calc.
+
+DAX add 3 things:
+- Calculated tables
+- Calculated columns
+- Measures
+
+
+- time intelligence func only work with date table
+- 1 active relationship between table, use `userelationship` to activate others.
+
+
+### what if parameter (or just parameter)
+
+Notably, what-if calculated tables aren't related to other model tables because they're not used to propagate filters. For this reason, they're sometimes called disconnected tables.
+
+## Calculated columns
+
+## Measures
+Explicit measures are model calculations that are written in DAX and are commonly referred to as simply measures. 
+
+Implicit measures are columns that can be summarized by visuals in simplistic ways, like count, sum, minimum, maximum, and so on.
+
+
+No such concept as a calculated measure exists in tabular modeling. 
+
+The word **calculated** is used to describe calculated tables and calculated columns, which distinguishes them from tables and columns that originate from Power Query. 
+
+# Write DAX formulas
+
+constants wrapped in double quote
+
+table reference in single quote. Single quote can be omitted when:
+
+1. The table name does not include embedded spaces.
+2. The table name isn't a reserved word that's used by DAX. All DAX function names and operators are reserved words. Date is a DAX function name, which explains why, when you are referencing a table named Date, that you must enclose it within single quotation marks.
+
+**Column references** and **Measure references** must be enclosed with square brackets []
+
+Disambiguated column are column references preceeded with table name,  also known as a fully qualified column.
+
+Some DAX functions require passing in fully qualified columns.
+
+
+> [!TIP] Recommended to always disambiguated columns, but reverse for measure (i.e. dont).
+
+formula can store variable
+
+Whitespace includes:
+- Spaces
+- Tabs
+- Carriage returns
+
+whitespace is optional 
+>[!TIP]
+> - Use spaces between operators.
+> - Use tabs to indent nested function calls.
+> - Use carriage returns to separate function arguments
+> - Err on the side of too much whitespace than too little.
+
+online lite version of [DAX FORMATTER](https://www.daxformatter.com/raw/)
+
+# dax data types
+
+- int, 
+- double, 
+- bool, 
+- string, 
+- date/time, 
+- currency, 
+- blank
+
+64 bit float have larger range than 64 bit int due to exponent, but has less precision than int.
+
+BLANK null equivalency:
+- sql null
+- excel blank
+
+
+# Work with DAX functions
+
+80 functions also found in excel
+Functions not found in excel relates to modeling
+- Relationship navigation functions
+- Filter context modification functions
+- Iterator functions
+- Time intelligence functions
+- Path functions
+e.g. distinctcount, divide
+> [!TIP] recommend divide for denom with possible 0, / for constants (faster performance)
+
+# Use DAX operators
+arithmetic: +-*/^
+
+comparison:
+- =
+- ==
+- `>`
+- <
+- `>=`
+- <=
+- <>
+
+string concat: &
+
+logical operator list
+- &&
+- ||
+- IN
+- NOT
+
+Implicit conversion exist
+> [!CAUTION]
+> should use isblank to check for unexpected results.
+
+
+
+3. You're using Power BI Desktop to develop a model. It has a table named Geography, which has two relationships to the Sales table. One relationship filters by customer region and the other filters by sales region. You need to create a role-playing dimension so that both filters are possible. What type of DAX calculation do you add to the model? 
+
+Calculated table
+Correct. Add a calculated table that duplicates the Geography table data and add an active relationship to the Sales table. Both geography tables now have active relationships to allow report users to filter by customer region or sales region.
