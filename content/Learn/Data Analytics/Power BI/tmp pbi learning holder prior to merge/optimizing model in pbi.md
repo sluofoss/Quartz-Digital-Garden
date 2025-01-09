@@ -2,7 +2,7 @@
 title: optimizing model in pbi
 created: 2025-01-08
 updated: 2025-01-08
-
+draft: true
 ---
 methods:
 - Ensuring that the correct data types are used.

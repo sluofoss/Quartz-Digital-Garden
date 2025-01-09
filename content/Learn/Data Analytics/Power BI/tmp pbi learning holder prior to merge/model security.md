@@ -2,7 +2,7 @@
 title: model security
 created: 2025-01-09
 updated: 2025-01-09
-
+draft: true
 ---
 
 goal:
