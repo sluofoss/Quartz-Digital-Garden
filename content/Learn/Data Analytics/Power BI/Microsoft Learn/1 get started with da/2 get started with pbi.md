@@ -21,6 +21,11 @@ report have pages/ tabs/ bookmarks that hide and show visuals  like an web-appli
 
 dashboard can be formed using visual from multiple reports as tiles. clicking tiles would lead to the report and not cross filter (unlike possible inside individual reports.)
 
+
+# pbi content hierarchy 
 everything is contained inside a workspace, 
 within workspace one can create app that is composed of report and dashboards. The end user should only access contents via apps and not through workspace access directly.
 > https://www.reddit.com/r/PowerBI/comments/183bsmx/what_is_the_difference_between_creating_a/
+>
+
+> https://www.reddit.com/r/PowerBI/comments/1b91f1h/what_is_the_appropriate_use_cases_for_reports_vs/
