@@ -1,6 +1,9 @@
 ---
+title: 2 get started with pbi
 created: 2025-01-02T14:41
 updated: 2025-01-02T15:33
+tags: 
+  - powerbi
 ---
 Power BI Desktop is the development tool available to data analysts and other report creators. 
 

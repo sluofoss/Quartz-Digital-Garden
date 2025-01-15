@@ -1,4 +1,5 @@
 ---
+title: 3 create interactive report with copilot
 created: 2025-01-02T14:41
 updated: 2025-01-02T16:34
 ---

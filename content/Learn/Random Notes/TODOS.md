@@ -27,3 +27,4 @@ updated: 2025-01-06T18:22
 - [ ] quartz sort recent note by modified date
 - [ ] auto update modified date in vscode
 - [ ] power bi project for data visualization.
+- [ ] auto add child index to parent index page (.foam/index_gen) 
