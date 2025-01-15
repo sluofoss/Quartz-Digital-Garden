@@ -10,6 +10,9 @@ import sys
 from datetime import datetime
 
 def create_markdown_files(root_folder):
+    """
+    #TODO: include child folder index page if present
+    """
     # Get today's date in the desired format
     today = datetime.today().strftime('%Y-%m-%d')
 
@@ -29,7 +32,7 @@ updated: {today}
 """
         # List all .md files in the folder
         for file in filenames:
-            if file.endswith('.md') and file != (os.path.basename(dirpath)+'.md'):
+            if file.endswith('.md') and file != ('Index - '+os.path.basename(dirpath)+'.md'):
                 content += f"- [[{file}]]\n"
 
         # Write the content to the .md file
