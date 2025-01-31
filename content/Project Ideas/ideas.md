@@ -28,3 +28,6 @@ tags:
 * Dash Calculator website that does comparison of property and check affordability
   * https://github.com/sluofoss/property_path
 * obsidian quartz plugin to render different visual diagrams?
+* power bi dashboard ideas
+  * https://www.projectpro.io/article/power-bi-microsoft-projects-examples-and-ideas-for-practice/533
+  * https://www.alphaa.ai/cds-resources/power-bi-project-2023
